@@ -1,0 +1,834 @@
+[
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column name using expression value.trim()",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "name",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column host_name using expression value.trim()",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "host_name",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column neighbourhood using expression value.trim()",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "neighbourhood",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column room_type using expression value.trim()",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "room_type",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column name using expression value.replace(/\\s+/,' ')",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "name",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column host_name using expression value.replace(/\\s+/,' ')",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "host_name",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column neighbourhood using expression value.replace(/\\s+/,' ')",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "neighbourhood",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column room_type using expression value.replace(/\\s+/,' ')",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "room_type",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column host_id using expression value.toNumber()",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "host_id",
+      "expression": "value.toNumber()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column latitude using expression value.toNumber()",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "latitude",
+      "expression": "value.toNumber()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column longitude using expression value.toNumber()",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "longitude",
+      "expression": "value.toNumber()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column price using expression value.toNumber()",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "price",
+      "expression": "value.toNumber()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column minimum_nights using expression value.toNumber()",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "minimum_nights",
+      "expression": "value.toNumber()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column number_of_reviews using expression value.toNumber()",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "number_of_reviews",
+      "expression": "value.toNumber()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column reviews_per_month using expression value.toNumber()",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "reviews_per_month",
+      "expression": "value.toNumber()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column calculated_host_listings_count using expression value.toNumber()",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "calculated_host_listings_count",
+      "expression": "value.toNumber()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column availability_365 using expression value.toNumber()",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "availability_365",
+      "expression": "value.toNumber()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/column-addition",
+      "description": "Create column neighbourhood_case at index 6 based on column neighbourhood using expression grel:value",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "newColumnName": "neighbourhood_case",
+      "columnInsertIndex": 6,
+      "baseColumnName": "neighbourhood",
+      "expression": "grel:value",
+      "onError": "set-to-blank"
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column neighbourhood_case using expression value.toTitlecase()",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "neighbourhood_case",
+      "expression": "value.toTitlecase()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/column-addition",
+      "description": "Create column neighbourhood_loop at index 7 based on column neighbourhood_case using expression grel:value",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "newColumnName": "neighbourhood_loop",
+      "columnInsertIndex": 7,
+      "baseColumnName": "neighbourhood_case",
+      "expression": "grel:value",
+      "onError": "set-to-blank"
+    },
+    {
+      "op": "core/mass-edit",
+      "description": "Mass edit cells in column neighbourhood_loop",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "neighbourhood_loop",
+      "expression": "value",
+      "edits": [
+        {
+          "fromBlank": false,
+          "fromError": false,
+          "from": [
+            "L??p"
+          ],
+          "to": "Loop"
+        }
+      ]
+    },
+    {
+      "op": "core/column-addition",
+      "description": "Create column neighbourhood_cluster at index 8 based on column neighbourhood_loop using expression grel:value",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "newColumnName": "neighbourhood_cluster",
+      "columnInsertIndex": 8,
+      "baseColumnName": "neighbourhood_loop",
+      "expression": "grel:value",
+      "onError": "set-to-blank"
+    },
+    {
+      "op": "core/mass-edit",
+      "description": "Mass edit cells in column neighbourhood_cluster",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "neighbourhood_cluster",
+      "expression": "value",
+      "edits": [
+        {
+          "fromBlank": false,
+          "fromError": false,
+          "from": [
+            "Ohare",
+            "O'hare",
+            "O?hare",
+            "O\"hare"
+          ],
+          "to": "O'Hare" 
+        }
+      ]
+    },
+    {
+      "op": "core/mass-edit",
+      "description": "Mass edit cells in column neighbourhood_cluster",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "neighbourhood_cluster",
+      "expression": "value",
+      "edits": [
+        {
+          "fromBlank": false,
+          "fromError": false,
+          "from": [
+            "West Garfieldpark",
+            "Westgarfield Park",
+            "West Garfield Park"
+          ],
+          "to": "West Garfield Park"
+        },
+        {
+          "fromBlank": false,
+          "fromError": false,
+          "from": [
+            "Westgarfieldpark",
+            "West Garfieldpark"
+          ],
+          "to": "West Garfield Park"
+        },
+        {
+          "fromBlank": false,
+          "fromError": false,
+          "from": [
+            "Westgarfieldpark",
+            "Westgarfield Park"
+          ],
+          "to": "West Garfield Park"
+        },
+        {
+          "fromBlank": false,
+          "fromError": false,
+          "from": [
+            "Westgarfield Park",
+            "West Garfield Park"
+          ],
+          "to": "West Garfield Park"
+        },
+        {
+          "fromBlank": false,
+          "fromError": false,
+          "from": [
+            "West Garfield Bark",
+            "West Garfield Park"
+          ],
+          "to": "West Garfield Park"
+        },
+        {
+          "fromBlank": false,
+          "fromError": false,
+          "from": [
+            "West Garfieldpark",
+            "West Garfield Park"
+          ],
+          "to": "West Garfield Park"
+        }
+      ]
+    },
+    {
+      "op": "core/column-split",
+      "description": "Split column host_name by separator",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "host_name",
+      "guessCellType": true,
+      "removeOriginalColumn": false,
+      "mode": "separator",
+      "separator": "\\s(And)\\s",
+      "regex": true,
+      "maxColumns": 0
+    },
+    {
+      "op": "core/column-removal",
+      "description": "Remove column neighbourhood_group",
+      "columnName": "neighbourhood_group"
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column last_review using expression value.toDate()",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "last_review",
+      "expression": "value.toDate()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/column-addition",
+      "description": "Create column last_review_timeless at index 17 based on column last_review using expression grel:value",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "newColumnName": "last_review_timeless",
+      "columnInsertIndex": 17,
+      "baseColumnName": "last_review",
+      "expression": "grel:value",
+      "onError": "set-to-blank"
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column last_review_timeless using expression grel:toString(toDate(value),\"yyyy-MM-dd\")",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "last_review_timeless",
+      "expression": "grel:toString(toDate(value),\"yyyy-MM-dd\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/column-addition",
+      "description": "Create column name_grel at index 2 based on column name using expression grel:value",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "newColumnName": "name_grel",
+      "columnInsertIndex": 2,
+      "baseColumnName": "name",
+      "expression": "grel:value",
+      "onError": "set-to-blank"
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column name_grel using expression grel:value.replace(/\\(\\s*(.+)\\s*\\)/, '$1')",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "name_grel",
+      "expression": "grel:value.replace(/\\(\\s*(.+)\\s*\\)/, '$1')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/column-addition",
+      "description": "Create column name_grel_star at index 3 based on column name_grel using expression grel:value",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "newColumnName": "name_grel_star",
+      "columnInsertIndex": 3,
+      "baseColumnName": "name_grel",
+      "expression": "grel:value",
+      "onError": "set-to-blank"
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column name_grel_star using expression grel:value.replace('*', '').replace('!', '')",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "name_grel_star",
+      "expression": "grel:value.replace('*', '').replace('!', '')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/column-addition",
+      "description": "Create column price_crazy at index 16 based on column price using expression grel:1",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "range",
+            "name": "price",
+            "expression": "value",
+            "columnName": "price",
+            "from": 4800,
+            "to": 10100,
+            "selectNumeric": true,
+            "selectNonNumeric": true,
+            "selectError": true,
+            "selectBlank": true
+          }
+        ],
+        "mode": "row-based"
+      },
+      "newColumnName": "price_crazy",
+      "columnInsertIndex": 16,
+      "baseColumnName": "price",
+      "expression": "grel:1",
+      "onError": "set-to-blank"
+    },
+    {
+      "op": "core/column-addition",
+      "description": "Create column minimum_nights_long at index 18 based on column minimum_nights using expression grel:1",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "range",
+            "name": "minimum_nights",
+            "expression": "value",
+            "columnName": "minimum_nights",
+            "from": 300,
+            "to": 370,
+            "selectNumeric": true,
+            "selectNonNumeric": true,
+            "selectError": true,
+            "selectBlank": true
+          }
+        ],
+        "mode": "row-based"
+      },
+      "newColumnName": "minimum_nights_long",
+      "columnInsertIndex": 18,
+      "baseColumnName": "minimum_nights",
+      "expression": "grel:1",
+      "onError": "set-to-blank"
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column name using expression value.trim()",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "name",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column name using expression value.replace(/\\s+/,' ')",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "name",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column name_grel using expression value.trim()",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "name_grel",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column name_grel using expression value.replace(/\\s+/,' ')",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "name_grel",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column name_grel_star using expression value.trim()",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "name_grel_star",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column name_grel_star using expression value.replace(/\\s+/,' ')",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "name_grel_star",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column host_name using expression value.trim()",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "host_name",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column host_name using expression value.replace(/\\s+/,' ')",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "host_name",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column host_name 1 using expression value.trim()",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "host_name 1",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column host_name 1 using expression value.replace(/\\s+/,' ')",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "host_name 1",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column host_name 2 using expression value.trim()",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "host_name 2",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column host_name 2 using expression value.replace(/\\s+/,' ')",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "host_name 2",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column neighbourhood using expression value.trim()",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "neighbourhood",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column neighbourhood using expression value.replace(/\\s+/,' ')",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "neighbourhood",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column neighbourhood_case using expression value.trim()",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "neighbourhood_case",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column neighbourhood_case using expression value.replace(/\\s+/,' ')",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "neighbourhood_case",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column neighbourhood_loop using expression value.trim()",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "neighbourhood_loop",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column neighbourhood_loop using expression value.replace(/\\s+/,' ')",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "neighbourhood_loop",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column neighbourhood_cluster using expression value.trim()",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "neighbourhood_cluster",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column neighbourhood_cluster using expression value.replace(/\\s+/,' ')",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "neighbourhood_cluster",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column room_type using expression value.trim()",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "room_type",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column room_type using expression value.replace(/\\s+/,' ')",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "room_type",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    }
+  ]
